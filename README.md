@@ -9,6 +9,7 @@
 ## Tutorials
 
 * [kubeconfig file](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/)
+* [Web interface](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
 
 ## Snippets
 
@@ -37,4 +38,8 @@ Start docker image:
 kubectl run statsd-http-proxy --port 80 --image=gometric/statsd-http-proxy:latest
 kubectl expose deployment statsd-http-proxy
 ```
+
+## UI
+
+
 
