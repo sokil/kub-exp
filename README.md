@@ -13,6 +13,7 @@
 
 ## Virtual machine
 
+### Manager
 ```
 # GUI for virtual machines
 apt install virt-manager
@@ -48,6 +49,12 @@ Use kvm2 as a default driver:
 ```
 minikube config set vm-driver kvm2
 minikube start
+```
+
+Show service address in minicube
+```
+$ sudo minikube service -n statsd --url statsd
+http://192.168.39.117:30586
 ```
 
 ## Pods
