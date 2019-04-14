@@ -57,6 +57,11 @@ $ sudo minikube service -n statsd --url statsd
 http://192.168.39.117:30586
 ```
 
+## Helm
+
+Chart testing:
+https://github.com/helm/chart-testing
+
 ## Pods
 
 ```
